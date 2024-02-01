@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 2.2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&family=Sixtyfour&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin:0;
+        }
+        .box{
+            display:flex;
+            justify-content: space-around;
+            align-items: baseline;
+        }
+        .block{
+            width:200px;
+            height:200px;
+            background-color: darksalmon;
+            font-size:22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*margin:20px;*/
+        }
+        #first{
+            font-family: 'Dancing Script', cursive;
+        }
+        #second{
+            font-family: 'Fjalla One', sans-serif;
+        }
+        #third{
+            font-family: 'Indie Flower', cursive;
+        }
+        #forth{
+            font-family: 'Rubik Pixels', system-ui;
+        }
+        #fifth{
+            font-family: 'Sedgwick Ave Display', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="block" id="first"><span>Dancing Script</span></div>
+        <div class="block"id="second"><span>Fjalla One</span></div>
+        <div class="block"id="third"><span>Indie Flower</span></div>
+        <div class="block"id="forth"><span>Rubik Pixels</span></div>
+        <div class="block"id="fifth"><span>Sedgwick Ave Display</span></div>
+    </div>
+</body>
+</html>
